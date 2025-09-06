@@ -9,6 +9,11 @@ app.use(cors());
 app.use(express.json());
 app.use('/api/retours', retoursRoutes);
 
+// Health check route
+app.get('/health', (req, res) => {
+    res.status(200).send('OK');
+});
+
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
 });
