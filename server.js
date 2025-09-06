@@ -11,6 +11,7 @@ app.use('/api/retours', retoursRoutes);
 
 // Health check route
 app.get('/health', (req, res) => {
+    console.log('Health check requested');
     res.status(200).send('OK');
 });
 
