@@ -1,0 +1,19 @@
+{
+  "name": "collecte-de-retour-utilisateur",
+  "version": "1.0.0",
+  "description": "Application pour la collecte et l'analyse des retours d'utilisateur.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mongoose": "^5.10.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {},
+  "author": "Votre Nom",
+  "license": "MIT"
+}
