@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Bienvenue à l\'API de Collecte de Retours Utilisateur!');
+    res.send('Bienvenue à l\'API de Collecte de Retours Utilisateur !');
 });
 
 app.listen(PORT, () => {
